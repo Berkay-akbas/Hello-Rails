@@ -640,3 +640,12 @@ Processing by PagesController#hello as HTML
 Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 14651)
 
 
+Started GET "/" for ::1 at 2022-10-17 15:23:09 +0300
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 13996)
+Completed 200 OK in 10ms (Views: 10.0ms | Allocations: 14630)
+
+
