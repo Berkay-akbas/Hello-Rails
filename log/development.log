@@ -622,3 +622,21 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 4ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 3770)
 
 
+Started GET "/pages/hello" for ::1 at 2022-10-17 15:02:19 +0300
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 129.4ms | Allocations: 91560)
+Completed 200 OK in 131ms (Views: 130.4ms | Allocations: 92595)
+
+
+Started GET "/" for ::1 at 2022-10-17 15:02:50 +0300
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 14019)
+Completed 200 OK in 8ms (Views: 7.8ms | Allocations: 14651)
+
+
